@@ -1,64 +1,116 @@
-# Python
+# ═══════════════════════════════════════════════════════════════════════
+# BottleVision — .gitignore
+# Only ship: app.py, best.pt, requirements.txt, README.md, .gitignore
+# ═══════════════════════════════════════════════════════════════════════
+
+# ── Python ──
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-env/
-ENV/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+*.pyc
+*.pyo
 *.egg-info/
-.installed.cfg
+dist/
+build/
 *.egg
 
-# PyTorch
-*.pt
-!best.pt
-
-# IDEs
+# ── IDE / Editor ──
+.qoder/
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
 
-# Logs
-*.log
-logs/
+# ── Old / reference scripts (not part of final release) ──
+claude_final.py
+calibrate_liquid_level.py
+bottle_inspector.py
+bottle_inference_variations.py
+bottle_yolo_inspector.py
+bottle_yolo_inspector_merged.py
+bottle_yolo_inspector_merged_backup.py
+variation_generator.py
+variations_creator.py
+config.py
+main.py
 
-# Configuration (keep example, ignore actual config)
-!config.example.json
-config.json
+# ── Old documentation (replaced by README.md) ──
+DETECTION_MERGING_GUIDE.md
+README_YOLO_INSPECTOR.md
 
-# Data and Results
-results_*.csv
-inspection_log.csv
-*.txt
-!requirements.txt
-!README.md
+# ── Videos / images (too large for git, users bring their own) ──
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
 
-# Debug outputs
+# ── Archive / zip ──
+*.zip
+*.tar.gz
+*.rar
+
+# ── Subdirectories with dev artifacts ──
+claude_final/
+black_liquid_variations/
+variations/
 debug/
-output_*.png
-output_*.jpg
-variation_generator_output/
 
-# Model training
-runs/
+sprite_vision/
 
-# Temporary files
-*.tmp
-.cache/
+# ── Model weights (large binary — users download separately) ──
+# Uncomment the next line if you do NOT want best.pt in the repo
+# best.pt
+best_yolov8s.pt
+
+# ── Runtime-generated files ──
+calibration.txt
+liquid_level_calibration.txt
+
+# ── OS junk ──
+Thumbs.db
+.DS_Store
+desktop.ini
+.qoder/
+black_liquid_variations/
+claude_final/
+debug/
+docs/
+sprite_vision/
+variations/
+pycache/
+
+
+
+best_yolov8s.pt
+bottles_with_levels.jpg
+bottles_with_levels_nocap.jpg
+bottle_inference_variations.py
+bottle_inspector.py
+bottle_yolo_inspector.py
+bottle_yolo_inspector_merged.py
+bottle_yolo_inspector_merged_backup.py
+calibrate_liquid_level.py
+calibration.txt
+cars.mp4
+claude_final.py
+claude_final.zip
+coke.mp4
+coke2.mp4
+coke_fast.mp4
+coke_upscale.mp4
+coke_wan.mp4
+coke_wan.mp4_snapshot_00.04.077.jpg
+coke_wan.mp4_thumbs.jpg
+config.py
+DETECTION_MERGING_GUIDE.md
+main.py
+
+README_YOLO_INSPECTOR.md
+
+variations_creator.py
+variation_generator.py
