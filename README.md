@@ -11,7 +11,7 @@ bottles on a conveyor (or in any video source) and determines whether the liquid
 meets your quality threshold — all in real time.
 
 ```
-![Logo](logo.png)
+![Logo](https://raw.githubusercontent.com/Shamlan321/BTLES/main/logo.png)
 Video / Camera feed
        │
        ▼
