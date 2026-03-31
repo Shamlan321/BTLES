@@ -9,9 +9,9 @@
 **BottleVision** is a production-ready computer vision system that automatically inspects
 bottles on a conveyor (or in any video source) and determines whether the liquid fill level
 meets your quality threshold — all in real time.
+![Logo](https://github.com/Shamlan321/BTLES/blob/main/demo.gif)
 
 ```
-![Logo](https://github.com/Shamlan321/BTLES/blob/main/demo.gif)
 Video / Camera feed
        │
        ▼
