@@ -35,7 +35,6 @@ main.py
 
 # ── Old documentation (replaced by README.md) ──
 DETECTION_MERGING_GUIDE.md
-README_YOLO_INSPECTOR.md
 
 # ── Videos / images (too large for git, users bring their own) ──
 *.mp4
@@ -79,7 +78,7 @@ desktop.ini
 black_liquid_variations/
 claude_final/
 debug/
-docs/
+
 sprite_vision/
 variations/
 pycache/
@@ -110,7 +109,7 @@ config.py
 DETECTION_MERGING_GUIDE.md
 main.py
 
-README_YOLO_INSPECTOR.md
+
 
 variations_creator.py
 variation_generator.py
