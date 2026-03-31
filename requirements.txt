@@ -1,0 +1,14 @@
+# Core dependencies
+ultralytics>=8.0.0  # YOLOv8 for object detection
+opencv-python>=4.5.0  # Computer vision operations
+numpy>=1.20.0  # Numerical operations
+PyQt5>=5.15.0  # Graphical user interface
+
+# Optional: GPU acceleration (uncomment if using NVIDIA GPU)
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=23.0.0
+# flake8>=6.0.0

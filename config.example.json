@@ -1,0 +1,13 @@
+{
+  "yolo_model": "best.pt",
+  "target_line_y": 730,
+  "tolerance": 5,
+  "detection_line_x_percent": 0.5,
+  "conf_threshold": 0.3,
+  "iou_threshold": 0.45,
+  "gaussian_kernel": 5,
+  "min_gradient_threshold": 10,
+  "display_scale": 0.7,
+  "show_debug": false,
+  "show_tracking_ids": true
+}

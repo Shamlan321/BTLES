@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pt
+!best.pt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Configuration (keep example, ignore actual config)
+!config.example.json
+config.json
+
+# Data and Results
+results_*.csv
+inspection_log.csv
+*.txt
+!requirements.txt
+!README.md
+
+# Debug outputs
+debug/
+output_*.png
+output_*.jpg
+variation_generator_output/
+
+# Model training
+runs/
+
+# Temporary files
+*.tmp
+.cache/
